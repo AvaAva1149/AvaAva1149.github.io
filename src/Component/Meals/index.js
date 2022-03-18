@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 
-
+import{Dropdown,DropdownMenu, DropdownToggle,Button} from 'react-bootstrap'
 
 
 
@@ -20,16 +20,17 @@ function App() {
             
         </div>
 
-        <div className="btn-group">
-        <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-          Menu
-        </button>
-        <ul className="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-          <li><button className="dropdown-item" type="button">Action</button></li>
-          <li><button className="dropdown-item" type="button">Another action</button></li>
-          <li><button className="dropdown-item" type="button">Something else here</button></li>
-        </ul>
-      </div>
+        <Dropdown>
+  <Dropdown.Toggle variant="success" id="dropdown-basic">
+    Dropdown Button
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
 
       
 
