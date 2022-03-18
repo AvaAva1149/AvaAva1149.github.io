@@ -20,7 +20,7 @@ function Meals() {
           Dessert
         </button>
       </body>
-    </div>
+    
   );
 }
 

@@ -36,9 +36,14 @@ function Header() {
       </Dropdown>
     </nav>
 
+
       <Link to={process.env.PUBLIC_URL + "/"} >Home Page</Link>
-      <Link to= >
-  );
+
+      </div>
+
+      );
 }
+
+
 
 export default Header;
