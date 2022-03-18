@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { HashRouter, Route, Link } from "react-router-dom";
-import Home from "./home.js";
-import StartPage from "./startpage.js";
+import Meals from "./Component/Meals";
+import StartPage from "./Component/Startpage";
+
 
 function App() {
   return (
@@ -11,8 +12,6 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>Foody App</p>
-        
-          
           {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,10 +20,11 @@ function App() {
         > */}
 
           <Link to="/start">Start</Link>
-          <Link to="/">Home</Link>
+          <Link to="/">Meals</Link>
+          
         </header>
 
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Meals} />
         <Route path="/start" component={StartPage} />
       </div>
     </HashRouter>
