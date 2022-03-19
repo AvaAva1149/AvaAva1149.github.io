@@ -1,0 +1,41 @@
+
+.header {
+    background-color: #689288;
+    height: 100px;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: #bfd0d1;
+  }
+  .navbar{
+    color: #434a5d;
+    background-color: #689288;
+  }
+  .logo{
+    padding-left: 40px;
+    padding-top:25px;
+  }
+  
+  .menu{
+    color: #434a5d;
+    width: 100px;
+    height: 25px;
+   padding-left: 95%;
+  align-content: flex-end;
+  
+   
+   }
+  
+   .dropDown{
+    background-color: #bfd0d1;
+   
+   }
+  
+  .item{
+    
+    color: #434a5d;
+    width: 50px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  

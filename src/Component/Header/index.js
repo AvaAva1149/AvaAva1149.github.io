@@ -1,49 +1,43 @@
 import logo from "../../logo.svg";
+import menu from "../../menu.svg";
 import "../../App.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-    Dropdown,
-    DropdownMenu,
-    DropdownToggle,
-    Button,
+  Navbar,
+  Nav,
+  Dropdown,
   } from "react-bootstrap";
+ 
 
-function Header() {
+
+function App() {
   return (
-    <div className="App">
-    <nav className="navbar">
-      <div className="container-fluid">
-        <img
-          src="/logo.svg"
-          alt=""
-          width={50}
-          height={50}
-          className="d-inline-block align-text-top "
-        />
-      </div>
+   
 
-      <Dropdown>
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
+      <Navbar className="navbar" expand={false}>
+       <img src={logo} className="logo" alt="logo" />
+
+    <Dropdown  className="menu">
+        <Dropdown.Toggle variant="success" id="dropdown-basic"   >
+        <img src={menu} className="hammenu" alt="" />
         </Dropdown.Toggle>
 
-        <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Menu className="dropDown">
+          <Dropdown.Item className="item" href="#/action-1">Meal plan</Dropdown.Item>
+          <Dropdown.Item className="item" href="#/action-2">Food styles</Dropdown.Item>
+          <Dropdown.Item className="item" href="#/action-3">Recipe list</Dropdown.Item>
+          <Dropdown.Item  className="item"href="#/action-3">Noodle recipe </Dropdown.Item>
+          <Dropdown.Item  className="item"href="#/action-3">Ingredients </Dropdown.Item>
+          <Dropdown.Item className="item" href="#/action-3">Video</Dropdown.Item>
         </Dropdown.Menu>
-      </Dropdown>
-    </nav>
-
-
-      <Link to={process.env.PUBLIC_URL + "/"} >Home Page</Link>
-
-      </div>
-
-      );
+      </Dropdown>  
+  
+  
+ 
+</Navbar>
+ 
+  );
 }
 
-
-
-export default Header;
+export default App;

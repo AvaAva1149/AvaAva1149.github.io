@@ -15,26 +15,56 @@
   }
 }*/
 
-.App-header {
-  background-color: #434a5d;
-  min-height: 100vh;
+.header {
+  background-color: #689288;
+  height: 100px;
   display: flex;
+  font-size: calc(10px + 2vmin);
+  color: #bfd0d1;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.navbar{
+  color: #434a5d;
+  background-color: #689288;
+  
+}
+.logo{
+ margin-left: 80px;
+ margin-top:25px;
+  width: 60px;
+  height: 60px;
+  background-color:#bfd0d1;
+  border-radius: 50%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.menu{
+  color: #434a5d;
+  width: 100px;
+  height: 25px;
+ padding-left: 95%;
+ 
+ }
+
+ .dropDown{
+  background-color: #bfd0d1;
+ 
+ 
+ }
+
+.item{
+  
+  color: #434a5d;
+  width: 50px;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hammenu{
+  width: 60px;
+  height: 60px;
+
+  
 }
+
