@@ -40,8 +40,8 @@ function Header() {
       <Link to={process.env.PUBLIC_URL + "/"} >Home Page</Link>
 
       </div>
-
       );
+      
 }
 
 

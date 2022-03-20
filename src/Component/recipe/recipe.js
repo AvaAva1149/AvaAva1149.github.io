@@ -24,7 +24,9 @@ export default class Navbarcomp extends Component {
   </Container>
 </Navbar>
             </div>
+            
          )
 
     }
+   
 }
