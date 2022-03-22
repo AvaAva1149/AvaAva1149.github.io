@@ -1,0 +1,34 @@
+.App {
+    text-align: center;
+    
+    
+  
+  }
+  
+  
+  
+  h4{
+    padding-top: 12%;
+  }
+  
+  .App-header {
+   min-height: 100vh;
+   background-color: #434a5d;
+    color: #bfd0d1; 
+    justify-content: center;
+    font-size: calc(8px + 2vmin);
+    font-weight: 500;
+    margin-top: 20px;
+    
+  }
+  
+  .buttom{
+    width: 300px;
+    height: 70px;
+    margin-top: 150px;
+    border-radius:20%;
+    background-color: #689288;
+    color: #bfd0d1;
+    font-size: 24px;
+  }
+  

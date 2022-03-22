@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Meals from "./Component/Meals";
 import StartPage from "./Component/Startpage";
 import Header from "./Component/Header";
+import askCompletion from "./Component/askCompletion/askCompletion";
 
 function App() {
   return (
