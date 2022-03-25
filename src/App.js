@@ -5,7 +5,8 @@ import Meals from "./Component/Meals";
 import StartPage from "./Component/Startpage/index.js";
 import Header from "./Component/Header/index.js";
 import AskCompletion from "./Component/askCompletion/index.js";
-import SesameNoodleBowl from "./Component/sesamenoodlebowl/index.js";
+import SesameNoodleBowl from "./Component/SesameNoodleBowl/index.js";
+import StartCooking from "./Component/StartCooking/index.js";
 
 function App() {
   return (
@@ -28,8 +29,13 @@ function App() {
             component={AskCompletion}
           />
           <Route
-            path={process.env.PUBLIC_URL + "/SesameNoosdleBowl"}
+            path={process.env.PUBLIC_URL + "/SesameNoodleBowl"}
             component={SesameNoodleBowl}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/StartCooking"}
+            component={StartCooking}
+          
           />
         </Route>
       </Routes>
