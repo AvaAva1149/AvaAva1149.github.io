@@ -7,13 +7,8 @@
     pointer-events: none;
   }
   
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
+
+  .App-header-startcooking {
     background-color: #3f4552;
     min-height: 100vh;
     display: flex;
@@ -24,11 +19,9 @@
     color: #faa831;
   }
   
-  .App-link {
-    color: #61dafb;
-  }
+
   
-  .video-button {
+  .start-video-button {
   width: 20px;
   height: 10px;
   color: #6D968C;

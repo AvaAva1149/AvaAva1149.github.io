@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-header-sesame {
   background-color: #3f4552;
   min-height: 100vh;
   display: flex;
@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 
-.Video-button {
+.video-button {
 width: 20px;
 height: 10px;
 color: #6D968C;

@@ -4,7 +4,7 @@ import React from "react";
 function StartCooking() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header-startcooking">
         <h2>Let's Cook With FOODY</h2>
 
         <div className="Ingredients">
@@ -13,7 +13,7 @@ function StartCooking() {
           <h2>Put the phone on the table and speak up</h2>
         </div>
 
-        <button cLassName="video-button">Start Cooking</button>
+        <button cLassName="start-video-button">Start Cooking</button>
       </header>
     </div>
   );
