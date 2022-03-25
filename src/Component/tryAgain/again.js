@@ -3,26 +3,23 @@ import "../../App.css";
 
 import React from "react";
 
-import{Button} from 'react-bootstrap'
+import { Button } from "react-bootstrap";
 
-function App() {
+function tryAgainComp() {
   return (
     <div className="App">
       <header className="App-header">
+        <h4 className="h4">Don't Worry, Let's try again next time!</h4>
 
-
-        <h4 className="h4">
-        Don't Worry, Let's try again next time!
-        </h4>
-
-  
-
-  <div> <Button  className="buttom" variant="secondary">See New Plan</Button>{' '}</div>
-  
+        <div>
+          {" "}
+          <Button className="buttom" variant="secondary">
+            See New Plan
+          </Button>{" "}
+        </div>
       </header>
     </div>
   );
 }
 
-export default App;
-
+export default tryAgainComp;
