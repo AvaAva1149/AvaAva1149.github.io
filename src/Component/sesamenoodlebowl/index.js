@@ -4,7 +4,7 @@ import "../../App.css";
 function SesameNoodleBowl() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header-sesame">
         <h2>SESAME NOODLE BOWL</h2>
         <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bm9vZGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"></img>
         <div className="Ingredients">
@@ -17,7 +17,7 @@ function SesameNoodleBowl() {
           <p>Soy sauce 3 tbsp</p>
           <p>Vinegar 1 tbsp</p>
         </div>
-        <button cLassName="Video-button">Watch video</button>
+        <button cLassName="video-button">Watch video</button>
       </header>
     </div>
   );
