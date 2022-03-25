@@ -7,6 +7,7 @@ import Header from "./Component/Header/index.js";
 import AskCompletion from "./Component/askCompletion/index.js";
 import SesameNoodleBowl from "./Component/SesameNoodleBowl/index.js";
 import StartCooking from "./Component/StartCooking/index.js";
+import QuickAndEasy from ".Component/QuickAndEasy/index.js";
 
 function App() {
   return (
