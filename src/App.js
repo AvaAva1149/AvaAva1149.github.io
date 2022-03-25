@@ -35,6 +35,7 @@ function App() {
           <Route
             path={process.env.PUBLIC_URL + "/StartCooking"}
             component={StartCooking}
+          
           />
         </Route>
       </Routes>
