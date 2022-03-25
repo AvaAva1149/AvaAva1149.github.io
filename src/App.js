@@ -1,47 +1,43 @@
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Meals from "./Component/Meals";
-import StartPage from "./Component/Startpage/index.js";
+import Startpage from "./Component/Startpage/index.js";
 import Header from "./Component/Header/index.js";
 import AskCompletion from "./Component/askCompletion/index.js";
-import SesameNoodleBowl from "./Component/SesameNoodleBowl/index.js";
+import SesameNoodleBowl from "./Component/sesamenoodlebowl/index.js";
 import StartCooking from "./Component/StartCooking/index.js";
+import ThanksPage from "./Component/ThanksPage/thanks.js";
 
-function App() {
+
+
+export default function App()  {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route>
-          <Route
-            exact
-            path={process.env.PUBLIC_URL + "/"}
-            component={StartPage}
-          />
-          <Route path={process.env.PUBLIC_URL + "/Meals"} component={Meals} />
-          {/* <Route
-            path={process.env.PUBLIC_URL + "/style_diet"}
-            component={<style_diet />}
-          /> */}
-          <Route
-            path={process.env.PUBLIC_URL + "/AskCompletion"}
-            component={AskCompletion}
-          />
-          <Route
-            path={process.env.PUBLIC_URL + "/SesameNoodleBowl"}
-            component={SesameNoodleBowl}
-          />
-          <Route
-            path={process.env.PUBLIC_URL + "/StartCooking"}
-            component={StartCooking}
-          
-          />
+   
+    <Route path="/" element={<Startpage />}>
+   <Route index element={<Startpage />} />
+          <Route path="Meals" element={<Meals />} />
+          <Route path="AskCompletion" element={<AskCompletion />} />
+          <Route path="SesameNoodleBowl" element={<SesameNoodleBowl />} />
+          <Route path="StartCooking" element={<StartCooking />} />
+          <Route path="*" element={<ThanksPage />} />
         </Route>
+
+
+
       </Routes>
-      <StartPage />
+     
     </Router>
   );
 }
 
-export default App;
+ReactDOM.render(<App />, document.getElementById("root"));
+

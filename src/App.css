@@ -14,6 +14,7 @@
 .navbar {
   background-color: #689288;
 display: flex;
+
    font-size: calc(10px + 2vmin);
   color: white;
   height: 10vmin; 
@@ -33,6 +34,8 @@ display: flex;
 
 .App-menu{
   height: 5vmin;
+ 
+  
   
   
 }
@@ -47,12 +50,6 @@ display: flex;
   text-align: center;
 }
 
-.App-logo-start {
-  height: 40vmin;
-  pointer-events: none;
-  background-color: #bfd0d1;
-  border-radius: 50%;
-}
 
 .App-header-start {
   background-color: #434a5d;
@@ -60,24 +57,10 @@ display: flex;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
   font-size: calc(10px + 2vmin);
   color: #faa831;
   /*font-family: CinzelDecorative, serif;*/
 }
-
-.startButton {
-  width: 140px;
-  height: 65px;
-  border-radius: 10px;
-  background-color: #689288;
-  color: #d4e9eb;
-  font-size: 24px;
-  font-weight: 700;
-  margin-top: 60px;
-}
-
-
-
 
 
