@@ -29,9 +29,9 @@
 }
 
 .Video-button {
-width: 10px;
-height: 5px;
-color: red;
+width: 20px;
+height: 10px;
+color: #6D968C;
 }
 
 @keyframes App-logo-spin {
