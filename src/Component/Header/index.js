@@ -1,39 +1,57 @@
 import logo from "../../logo.svg";
+import backArrow from '../../backArrow.svg';
 import "../../App.css";
+import menu from '../../menu.svg';
+import '../../App';
+import '../../index';
 import React from "react";
-import { Link } from "react-router-dom";
-import { Dropdown } from "react-bootstrap";
+
+
+import {Container,Navbar,Nav,NavDropdown} from "react-bootstrap";
+
+
 
 function Header() {
   return (
-    <div className="Header">
-      <nav className="navbar">
-        {/* <div className="container-fluid">
-          <img
-            src="/logo.svg"
-            alt=""
-            width={50}
-            height={50}
-            className="d-inline-block align-text-top "
-          />
-        </div> */}
+    <div className="App">
+    
+       <Navbar className="navbar"  expand="lg">
+  <Container>
+ <Nav className="me-auto">
 
-        <Dropdown>
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            Dropdown Button
-          </Dropdown.Toggle>
+      <Nav.Link href="#back"><img src={backArrow} className="App-backArrow" alt="backArrow"/></Nav.Link>
 
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
-      </nav>
+      <Nav.Link href="#home"><img src={logo} className="App-logo" alt="logo" /></Nav.Link>
 
-      <Link to={process.env.PUBLIC_URL + "/"}>Home Page</Link>
+      <Nav.Link href="#link"><img src={menu} className="App-menu" alt="menu" />
+
+
+      <NavDropdown title="menu" id="basic-nav-dropdown" className="NavDropdown">
+          <NavDropdown.Item href="#action/3.1">Meal plan</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">Food styles</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Recipe list</NavDropdown.Item>
+         
+        </NavDropdown>
+      </Nav.Link>
+        
+        
+      </Nav>
+  
+  </Container>
+</Navbar>
+
+
+
+       
+        
+   
     </div>
   );
 }
 
 export default Header;
+
+
+
+
+

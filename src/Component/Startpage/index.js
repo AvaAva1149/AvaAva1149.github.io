@@ -3,9 +3,9 @@ import "../../App.css";
 
 function StartPage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App-start">
+      <header className="App-header-start">
+        <img src={logo} className="App-logo-start" alt="logo" />
         <p> WELCOME TO FOODY</p>
         <button className="startButton" type="button">
           Start
