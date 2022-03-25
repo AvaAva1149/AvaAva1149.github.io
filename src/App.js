@@ -28,8 +28,12 @@ function App() {
             component={AskCompletion}
           />
           <Route
-            path={process.env.PUBLIC_URL + "/SesameNoosdleBowl"}
+            path={process.env.PUBLIC_URL + "/SesameNoodleBowl"}
             component={SesameNoodleBowl}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/StartCooking"}
+            component={StartCooking}
           />
         </Route>
       </Routes>
