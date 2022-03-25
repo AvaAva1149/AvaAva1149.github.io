@@ -33,12 +33,3 @@ width: 20px;
 height: 10px;
 color: #6D968C;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
