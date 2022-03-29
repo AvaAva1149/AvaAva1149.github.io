@@ -10,10 +10,9 @@ import Meals from "./Component/Meals";
 import Startpage from "./Component/Startpage/index.js";
 import Header from "./Component/Header/index.js";
 import AskCompletion from "./Component/askCompletion/index.js";
-import SesameNoodleBowl from "./Component/sesamenoodlebowl/index.js";
+import SesameNoodleBowl from "./Component/SesameNoodleBowl/index.js";
 import StartCooking from "./Component/StartCooking/index.js";
 import ThanksPage from "./Component/ThanksPage/thanks.js";
-
 
 
 export default function App()  {
