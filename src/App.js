@@ -14,6 +14,8 @@ import SesameNoodleBowl from "./Component/SesameNoodleBowl/index.js";
 import StartCooking from "./Component/StartCooking/index.js";
 import ThanksPage from "./Component/ThanksPage/thanks.js";
 import TryAgainPage from "./Component/TryAgainPage/tryAgain";
+import Stylediet from "./Component/Stylediet/Styleitem";
+
 
 
 export default function App()  {
