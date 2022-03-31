@@ -18,23 +18,24 @@ function Header() {
        <Navbar className="navbar"  expand="lg">
   <Container>
  <Nav className="me-auto">
+   
 
-      <Nav.Link href="#back"><img src={backArrow} className="App-backArrow" alt="backArrow"/></Nav.Link>
+     <li className="nav-list"><Nav.Link href="#back"><img src={backArrow} className="App-backArrow" alt="backArrow"/></Nav.Link></li>
 
-      <Nav.Link href="#home"><img src={logo} className="App-logo" alt="logo" /></Nav.Link>
+      <li ><Nav.Link href="#home"><img src={logo} className="App-logo" alt="logo" /></Nav.Link></li> 
 
-      <Nav.Link href="#link"><img src={menu} className="App-menu" alt="menu" />
+   
 
 
-      <NavDropdown title="menu" id="basic-nav-dropdown" className="NavDropdown">
-          <NavDropdown.Item href="#action/3.1">Meal plan</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Food styles</NavDropdown.Item>
+      <li><NavDropdown title="menu" id="basic-nav-dropdown" className="NavDropdown">
+          <NavDropdown.Item href="#action/3.1" >Meal plan</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2" >Food styles</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Recipe list</NavDropdown.Item>
          
         </NavDropdown>
-      </Nav.Link>
+        </li>
         
-        
+      
       </Nav>
   
   </Container>

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -28,39 +29,30 @@ display: flex;
 .me-auto {
   list-style-type: none;
   margin: 3px;
-  display: inline;
+  display:flex;
  
 }
+
+
 
 .App-menu{
   height: 5vmin;
  
-  
-  
-  
 }
 
 .NavDropdown{
-  display:list-item;
+  list-style-type: none;
+  background-color:#bfd0d1;
+  color: #434a5d;
+  font-size: 18px;
+  width: 100px;
+  margin-left:95%;
   
+ }
+
   
-}
-
-.App-start {
-  text-align: center;
-}
 
 
-.App-header-start {
-  background-color: #434a5d;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  font-size: calc(10px + 2vmin);
-  color: #faa831;
-  /*font-family: CinzelDecorative, serif;*/
-}
+
 
 

@@ -4,6 +4,20 @@
   text-align: center;
 }
 
+
+.App-header-start {
+  background-color: #434a5d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #faa831;
+  /*font-family: CinzelDecorative, serif;*/
+}
+
+
+
 .App-logo-start {
   height: 40vmin;
   pointer-events: none;
@@ -28,7 +42,3 @@
 }
 
 
-.startButton-link{
-  text-decoration: none;
-
-}

@@ -1,7 +1,11 @@
-import logo from "../../logo.svg";
+
 import "../../App.css";
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
+import "../../index.css";
+import "./style.css";
 
 function AskCompletion() {
   return (
@@ -10,16 +14,23 @@ function AskCompletion() {
         <h4 className="h4">DID YOU COMPLETE THE COOKING?</h4>
 
         <div>
+
+        <Link to="Component/TryAgainPage" >
           <Button className="buttom-ask" variant="primary">
             No, I cancled
           </Button>{" "}
+</Link>
+
         </div>
 
         <div>
+        <Link to="Component/FeedbackPage"  className="asktButton-link">
           {" "}
           <Button className="buttom-ask" variant="secondary">
             Yes! made it!
           </Button>{" "}
+          </Link>
+
         </div>
       </header>
     </div>

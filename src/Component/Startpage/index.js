@@ -14,12 +14,18 @@ function Startpage() {
         <p> WELCOME TO FOODY</p>
 
 
-         <Link to="Component/Meals"  className="startButton-link">
-        <h4 className="linkButton" >Start</h4>
+         <Link to="Component/Meals">
+
+         <button className="linkButton" type="button">
+        Start
+        </button>
+
+       
       </Link>
       
+     
       
-   
+      
 </header>
     </div>
   );

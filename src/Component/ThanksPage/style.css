@@ -1,8 +1,8 @@
-.App {
+.App-thanks {
     text-align: center;
   }
   
-  .App-logo {
+  .App-logo-thanks {
     height: 27vmin;
     pointer-events: none;
     background-color: #bfd0d1;
@@ -12,7 +12,7 @@
   
   
   
-  .App-header {
+  .App-header-thanks {
     background-color: #434a5d;
     min-height: 100vh;
     display: flex;
@@ -29,7 +29,7 @@
   
   
   
-  .startButton{
+  .startButton-thanks{
     width: 300px;
     height: 70px;
     margin-top: 10%;
