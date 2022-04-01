@@ -1,0 +1,42 @@
+
+
+.App-video {
+    text-align: center;
+  }
+  
+  
+  .App-header-video {
+    background-color: #434a5d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: #faa831;
+    /*font-family: CinzelDecorative, serif;*/
+  }
+  
+  
+  
+  .App-logo-video {
+    height: 40vmin;
+    pointer-events: none;
+    background-color: #bfd0d1;
+    border-radius: 50%;
+    margin-top: 4%;
+  }
+  
+  
+  
+  
+  .linkButton-video {
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #689288;
+    color: #d4e9eb;
+    font-size: 24px;
+    font-weight: 700;
+  
+   
+  }

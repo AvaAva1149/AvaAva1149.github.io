@@ -13,8 +13,9 @@ import AskCompletion from "./Component/askCompletion/index.js";
 import SesameNoodleBowl from "./Component/SesameNoodleBowl/index.js";
 import StartCooking from "./Component/StartCooking/index.js";
 import ThanksPage from "./Component/ThanksPage/thanks.js";
-import TryAgainPage from "./Component/TryAgainPage/tryAgain";
-import Stylediet from "./Component/Stylediet/Styleitem";
+import TryAgainPage from "./Component/TryAgainPage/tryAgain.js";
+import VideoPage from "./Component/VideoPage/video.js";
+import Stylediet from "./Component/Stylediet/Diet.js";
 
 
 
@@ -24,7 +25,7 @@ export default function App()  {
       <Header />
       <Routes>
    
-    <Route path="/" element={<StartCooking />}>
+    <Route path="/" element={<Startpage/>}>
  <Route index element={<Startpage />} />
  <Route path="Meals" element={<Meals />} />
           <Route path="AskCompletion" element={<AskCompletion />} />
@@ -32,6 +33,7 @@ export default function App()  {
           <Route path="StartCooking" element={<StartCooking />} />
           <Route path="*" element={<ThanksPage />} />
           <Route path="*" element={<TryAgainPage />} />
+          <Route path="*" element={<Stylediet/>} />
         </Route>
 
 
