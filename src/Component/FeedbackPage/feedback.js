@@ -1,6 +1,10 @@
 import React from "react";
-import './App.css';
+import "../../App.css";
+import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
+
+import "../../index.css";
+import "./style.css";
 
 const colors = {
 
@@ -59,8 +63,12 @@ function App() {
    style={style.textarea}
    /> 
 
+
+<Link to="Component/ThanksPage" >
    <button style={style.button}> <span>Submit</span></button>
-   
+  </Link> 
+
+
    </div>
   
   );

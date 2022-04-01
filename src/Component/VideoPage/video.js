@@ -1,6 +1,6 @@
 
 import "../../App.css";
-
+import ReactPlayer from "react-player";
 
 import { Link } from "react-router-dom";
 
@@ -11,10 +11,18 @@ import "./style.css";
 function VideoPage() {
   return (
     <div className="App-video">
+
+
+
       <header className="App-header-video">
        
         <p> Use Your Voice to Control the Video</p>
-        <p> Video here</p>
+        <div>
+
+        <ReactPlayer url="youtu.be/vPFoCNnaqIQ"/>
+        </div>
+
+       
 
 
          <Link to="Component/askCompletion">
