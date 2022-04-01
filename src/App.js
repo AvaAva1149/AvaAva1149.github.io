@@ -18,6 +18,7 @@ import VideoPage from "./Component/VideoPage/video.js";
 import Stylediet from "./Component/Stylediet/Diet.js";
 import NoodleRecipe from "./Component/NoodleRecipe/Recipe.js";
 import QuickAndEasy from "./Component/QuickAndEasy/Meal.js";
+import FeedbackPage from "./Component/FeedbackPage/feedback.js";
 
 
 
@@ -28,7 +29,7 @@ export default function App()  {
       <Header />
       <Routes>
    
-    <Route path="/" element={<Startpage/>}>
+    <Route path="/" element={<QuickAndEasy/>}>
  <Route index element={<Startpage />} />
  <Route path="Meals" element={<Meals />} />
           <Route path="AskCompletion" element={<AskCompletion />} />
@@ -40,6 +41,7 @@ export default function App()  {
           <Route path="*" element={<VideoPage/>} />
           <Route path="*" element={<NoodleRecipe/>} />
           <Route path="*" element={<QuickAndEasy/>} />
+          <Route path="*" element={<FeedbackPage/>} />
         </Route>
 
 
