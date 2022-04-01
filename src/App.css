@@ -14,9 +14,8 @@
 
 .navbar {
   background-color: #689288;
-display: flex;
-
-   font-size: calc(10px + 2vmin);
+  display: flex;
+  font-size: calc(10px + 2vmin);
   color: white;
   height: 10vmin; 
   
@@ -32,6 +31,7 @@ display: flex;
   display:flex;
  
 }
+
 
 
 

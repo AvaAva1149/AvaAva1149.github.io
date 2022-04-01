@@ -1,4 +1,4 @@
-import mic-icon from "../../mic-icon.svg";
+import mic from "../../mic.svg";
 import "../../App.css";
 import ReactPlayer from "react-player";
 
@@ -12,10 +12,13 @@ function VideoPage() {
   return (
     <div className="App-video">
 
-<img src={mic-icon} className="App-logo-start" alt="logo" />
+
       <header className="App-header-video">
        
         <p> Use Your Voice to Control the Video</p>
+
+        <img src={mic} className="mic" alt="mic" />
+
         <div>
 
         <ReactPlayer url="youtu.be/vPFoCNnaqIQ"/>
