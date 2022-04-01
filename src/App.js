@@ -39,6 +39,7 @@ export default function App()  {
           <Route path="*" element={<Stylediet/>} />
           <Route path="*" element={<VideoPage/>} />
           <Route path="*" element={<NoodleRecipe/>} />
+          <Route path="*" element={<QuickAndEasy/>} />
         </Route>
 
 
