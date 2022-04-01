@@ -1,4 +1,11 @@
 import React from "react";
+import "../../index.css";
+import "./style.css";
+import { Link } from "react-router-dom";
+
+
+
+
 const Styleitem=()=>{
     return(
         <>
@@ -56,7 +63,15 @@ const Styleitem=()=>{
         <div className="row">
           <div className="column">
             <div className="card">
+
+
+
+
+            <Link to="Component/QuickAndEasy" >  
             <h2>Quick & Easy</h2>
+           </Link>
+
+
               <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60" alt="Jane" style={{width: '100%'}} />
               <div className="container">
                 <h1>Star</h1>

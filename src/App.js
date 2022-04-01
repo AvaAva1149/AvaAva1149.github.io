@@ -16,6 +16,9 @@ import ThanksPage from "./Component/ThanksPage/thanks.js";
 import TryAgainPage from "./Component/TryAgainPage/tryAgain.js";
 import VideoPage from "./Component/VideoPage/video.js";
 import Stylediet from "./Component/Stylediet/Diet.js";
+import NoodleRecipe from "./Component/NoodleRecipe/Recipe.js";
+import QuickAndEasy from "./Component/QuickAndEasy/Meal.js";
+
 
 
 
@@ -34,6 +37,8 @@ export default function App()  {
           <Route path="*" element={<ThanksPage />} />
           <Route path="*" element={<TryAgainPage />} />
           <Route path="*" element={<Stylediet/>} />
+          <Route path="*" element={<VideoPage/>} />
+          <Route path="*" element={<NoodleRecipe/>} />
         </Route>
 
 

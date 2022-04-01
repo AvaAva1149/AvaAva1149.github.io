@@ -1,5 +1,11 @@
 import React from "react";
 import Mealitem from "./Mealitem";
+import "../../index.css";
+import "./style.css";
+
+
+
+
 const Meal=()=>{
     return (
         <div className="main">

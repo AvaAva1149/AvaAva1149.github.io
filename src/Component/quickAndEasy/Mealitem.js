@@ -1,4 +1,7 @@
 import React from "react"
+import "../../index.css";
+import "./style.css";
+import { Link } from "react-router-dom";
 
 
 const Mealitem=()=>{
@@ -13,7 +16,15 @@ const Mealitem=()=>{
         </div>
         <div className="column">
           <img className="img" src="https://media.istockphoto.com/photos/spaghetti-with-tomato-sauce-shot-on-rustic-wooden-table-picture-id1166678093?k=20&m=1166678093&s=612x612&w=0&h=gICfSjYEFNNXgQfdc6nh7FoE8cu9ED4Jn9u_Y3b4-Mo=" alt="Forest" style={{width: '100%'}} />
+          
+          
+          <Link to="Component/NoodleRecipe" >
           <h2>Noodle</h2> 
+          </Link>
+
+
+
+
         </div>
         <div className="column">
           <img className="img" src="https://media.istockphoto.com/photos/classic-lasagne-piece-on-a-plate-picture-id1347984667?k=20&m=1347984667&s=612x612&w=0&h=gvZASV-ETZ79joEIUrfv56sYVmQ3sO7TiiGtPwYnWHI=" style={{width: '100%'}} />

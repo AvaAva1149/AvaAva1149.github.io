@@ -17,7 +17,7 @@ function VideoPage() {
         <p> Video here</p>
 
 
-         <Link to="Component/VideoPage">
+         <Link to="Component/askCompletion">
 
          <button className="linkButton-video" type="button">
        Completed!
