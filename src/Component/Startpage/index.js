@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import "../../index.css";
 import "./style.css";
 
-
 function Startpage() {
   return (
     <div className="App-start">
@@ -13,23 +12,14 @@ function Startpage() {
         <img src={logo} className="App-logo-start" alt="logo" />
         <p> WELCOME TO FOODY</p>
 
-
-         <Link to="Component/Meals">
-
-         <button className="linkButton" type="button">
-        Start
-        </button>
-
-       
-      </Link>
-      
-     
-      
-      
-</header>
+        <Link to="/Meals">
+          <button className="linkButton" type="button">
+            Start
+          </button>
+        </Link>
+      </header>
     </div>
   );
 }
-
 
 export default Startpage;

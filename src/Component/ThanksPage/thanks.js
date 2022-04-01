@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import "../../index.css";
 import "./style.css";
 
-
 function App() {
   return (
     <div className="App-thanks">
@@ -13,14 +12,11 @@ function App() {
         <img src={logo} className="App-logo-thanks" alt="logo" />
         <p> THANK YOU</p>
 
-
-        <Link to="Component/ThanksPage" >
-        <button className="startButton-thanks" type="button">
-        Back to top
-        </button>
-        {" "}
-</Link>
-
+        <Link to="/ThanksPage">
+          <button className="startButton-thanks" type="button">
+            Back to top
+          </button>{" "}
+        </Link>
       </header>
     </div>
   );

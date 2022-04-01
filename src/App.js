@@ -1,8 +1,5 @@
-
 import React from "react";
 import ReactDOM from "react-dom";
-
-
 
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -20,37 +17,28 @@ import NoodleRecipe from "./Component/NoodleRecipe/Recipe.js";
 import QuickAndEasy from "./Component/QuickAndEasy/Meal.js";
 import FeedbackPage from "./Component/FeedbackPage/feedback.js";
 
-
-
-
-export default function App()  {
+export default function App() {
   return (
-    <Router>
+    <div>
       <Header />
-      <Routes>
-   
-    <Route path="/" element={<Startpage/>}>
- <Route index element={<Startpage />} />
- <Route path="Meals" element={<Meals />} />
-          <Route path="AskCompletion" element={<AskCompletion />} />
-          <Route path="SesameNoodleBowl" element={<SesameNoodleBowl />} />
-          <Route path="StartCooking" element={<StartCooking />} />
-          <Route path="ThanksPage" element={<ThanksPage />} />
-          <Route path="TryAgainPage" element={<TryAgainPage />} />
-          <Route path="Stylediet" element={<Stylediet/>} />
-          <Route path="VideoPage" element={<VideoPage/>} />
-          <Route path="NoodleRecipe" element={<NoodleRecipe/>} />
-          <Route path="QuickAndEasy" element={<QuickAndEasy/>} />
-          <Route path="FeedbackPage" element={<FeedbackPage/>} />
-        </Route>
-
-
-
-      </Routes>
-     
-    </Router>
+      <div className="MainElement">
+        <Router>
+          <Routes>
+            <Route path="/" element={<VideoPage />} />
+            <Route path="Meals" element={<Meals />} />
+            <Route path="AskCompletion" element={<AskCompletion />} />
+            <Route path="SesameNoodleBowl" element={<SesameNoodleBowl />} />
+            <Route path="StartCooking" element={<StartCooking />} />
+            <Route path="ThanksPage" element={<ThanksPage />} />
+            <Route path="TryAgainPage" element={<TryAgainPage />} />
+            <Route path="Stylediet" element={<Stylediet />} />
+            <Route path="VideoPage" element={<VideoPage />} />
+            <Route path="NoodleRecipe" element={<NoodleRecipe />} />
+            <Route path="QuickAndEasy" element={<QuickAndEasy />} />
+            <Route path="FeedbackPage" element={<FeedbackPage />} />
+          </Routes>
+        </Router>
+      </div>
+    </div>
   );
 }
-
-ReactDOM.render(<App />, document.getElementById("root"));
-
