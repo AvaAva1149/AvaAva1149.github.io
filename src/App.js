@@ -31,7 +31,7 @@ export default function App()  {
    
     <Route path="/" element={<Startpage/>}>
  <Route index element={<Startpage />} />
- <Route path="Meals" element={<Meals />} />
+          <Route path="Meals" element={<Meals />} />
           <Route path="AskCompletion" element={<AskCompletion />} />
           <Route path="SesameNoodleBowl" element={<SesameNoodleBowl />} />
           <Route path="StartCooking" element={<StartCooking />} />
