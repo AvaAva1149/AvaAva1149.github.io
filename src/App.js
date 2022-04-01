@@ -29,7 +29,7 @@ export default function App()  {
       <Header />
       <Routes>
    
-    <Route path="/" element={<VideoPage/>}>
+    <Route path="/" element={<Startpage/>}>
  <Route index element={<Startpage />} />
  <Route path="Meals" element={<Meals />} />
           <Route path="AskCompletion" element={<AskCompletion />} />
