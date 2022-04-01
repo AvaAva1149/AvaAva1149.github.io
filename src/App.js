@@ -35,13 +35,13 @@ export default function App()  {
           <Route path="AskCompletion" element={<AskCompletion />} />
           <Route path="SesameNoodleBowl" element={<SesameNoodleBowl />} />
           <Route path="StartCooking" element={<StartCooking />} />
-          <Route path="*" element={<ThanksPage />} />
-          <Route path="*" element={<TryAgainPage />} />
-          <Route path="*" element={<Stylediet/>} />
-          <Route path="*" element={<VideoPage/>} />
-          <Route path="*" element={<NoodleRecipe/>} />
-          <Route path="*" element={<QuickAndEasy/>} />
-          <Route path="*" element={<FeedbackPage/>} />
+          <Route path="ThanksPage" element={<ThanksPage />} />
+          <Route path="TryAgainPage" element={<TryAgainPage />} />
+          <Route path="Stylediet" element={<Stylediet/>} />
+          <Route path="VideoPage" element={<VideoPage/>} />
+          <Route path="NoodleRecipe" element={<NoodleRecipe/>} />
+          <Route path="QuickAndEasy" element={<QuickAndEasy/>} />
+          <Route path="FeedbackPage" element={<FeedbackPage/>} />
         </Route>
 
 
