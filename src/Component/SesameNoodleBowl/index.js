@@ -1,7 +1,8 @@
 import React from "react";
 import "../../App.css";
-
-
+import { Link } from "react-router-dom";
+import "../../index.css";
+import "./style.css";
 
 function SesameNoodleBowl() {
   return (

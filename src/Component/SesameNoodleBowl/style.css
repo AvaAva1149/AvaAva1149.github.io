@@ -2,16 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
+
 
 .App-header-sesame {
   background-color: #3f4552;
@@ -24,9 +17,7 @@
   color: #faa831;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 .video-button {
 width: 20px;
