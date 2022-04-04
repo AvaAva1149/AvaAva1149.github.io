@@ -23,32 +23,34 @@ import FeedbackPage from "./Component/FeedbackPage/feedback.js";
 
 
 
+
 export default function App()  {
   return (
-    <Router>
-      <Header />
-      <Routes>
-   
-    <Route path="/" element={<Startpage/>}>
- <Route index element={<Startpage />} />
-          <Route path="Meals" element={<Meals />} />
-          <Route path="AskCompletion" element={<AskCompletion />} />
-          <Route path="SesameNoodleBowl" element={<SesameNoodleBowl />} />
-          <Route path="StartCooking" element={<StartCooking />} />
-          <Route path="ThanksPage" element={<ThanksPage />} />
-          <Route path="TryAgainPage" element={<TryAgainPage />} />
-          <Route path="Stylediet" element={<Stylediet/>} />
-          <Route path="VideoPage" element={<VideoPage/>} />
-          <Route path="NoodleRecipe" element={<NoodleRecipe/>} />
-          <Route path="QuickAndEasy" element={<QuickAndEasy/>} />
-          <Route path="FeedbackPage" element={<FeedbackPage/>} />
-        </Route>
+    <div className="MainElement">
+      
+        <Router>
+        <Header />
+          <Routes>
+            <Route path="/" element={<Startpage />} />
+            <Route path="Meals" element={<Meals />} />
+            <Route path="AskCompletion" element={<AskCompletion />} />
+            <Route path="SesameNoodleBowl" element={<SesameNoodleBowl />} />
+            <Route path="StartCooking" element={<StartCooking />} />
+            <Route path="ThanksPage" element={<ThanksPage />} />
+            <Route path="TryAgainPage" element={<TryAgainPage />} />
+            <Route path="Stylediet" element={<Stylediet />} />
+            <Route path="VideoPage" element={<VideoPage />} />
+            <Route path="NoodleRecipe" element={<NoodleRecipe />} />
+            <Route path="QuickAndEasy" element={<QuickAndEasy />} />
+            <Route path="FeedbackPage" element={<FeedbackPage />} />
+            <Route path="Header" element={<Header />} />
+           
+           
 
-
-
-      </Routes>
-     
-    </Router>
+          </Routes>
+        </Router>
+      </div>
+    
   );
 }
 

@@ -21,7 +21,7 @@ function SesameNoodleBowl() {
           <p>Vinegar 1 tbsp</p>
         </div>
 
-        <Link to="Component/StartCooking">
+        <Link to="/StartCooking">
           <button cLassName="video-button">Watch video</button>
         </Link>
        

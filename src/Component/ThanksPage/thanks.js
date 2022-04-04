@@ -12,7 +12,7 @@ function App() {
         <img src={logo} className="App-logo-thanks" alt="logo" />
         <p> THANK YOU</p>
 
-        <Link to="/ThanksPage">
+        <Link to="/Meals">
           <button className="startButton-thanks" type="button">
             Back to top
           </button>{" "}

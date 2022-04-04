@@ -67,7 +67,7 @@ const Styleitem=()=>{
 
 
 
-            <Link to="Component/QuickAndEasy" >  
+            <Link to="/QuickAndEasy" >  
             <h2>Quick & Easy</h2>
            </Link>
 

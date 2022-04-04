@@ -15,7 +15,7 @@ function VideoPage() {
 
       <header className="App-header-video">
        
-        <p> Use Your Voice to Control the Video</p>
+        <p> Speak up to control the video</p>
 
         <img src={mic} className="mic" alt="mic" />
 
@@ -27,7 +27,7 @@ function VideoPage() {
        
 
 
-         <Link to="Component/askCompletion">
+         <Link to="/askCompletion">
 
          <button className="linkButton-video" type="button">
        Completed!

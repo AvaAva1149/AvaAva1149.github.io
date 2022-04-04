@@ -14,7 +14,7 @@ function TryAgainPage() {
 
         <div>
 
-        <Link to="Component/Meals"  className="tryButton-link">
+        <Link to="/Meals"  className="tryButton-link">
           {" "}
           <Button className="buttom-newplan" variant="secondary">
             See New Plan

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 
 import "../../index.css";
-import "./style.css";
+
 
 const colors = {
 
@@ -44,7 +44,7 @@ function App() {
        size={24}
        style={{
 
-        marginRight:10,
+      
         cursor:"pointer"
        }}
        
@@ -64,7 +64,7 @@ function App() {
    /> 
 
 
-<Link to="Component/ThanksPage" >
+<Link to="/ThanksPage" >
    <button style={style.button}> <span>Submit</span></button>
   </Link> 
 
@@ -79,8 +79,7 @@ const style ={
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    paddingTop: "100px",
-    color: "#FFFFFF",
+   color: "#FFFFFF",
   },
   textarea: {
     border: "1px solid #a9a9a9",

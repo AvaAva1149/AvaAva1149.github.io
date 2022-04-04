@@ -15,7 +15,7 @@ function AskCompletion() {
 
         <div>
 
-        <Link to="Component/TryAgainPage" >
+        <Link to="/TryAgainPage" >
           <Button className="buttom-ask" variant="primary">
             No, I cancled
           </Button>{" "}
@@ -24,7 +24,7 @@ function AskCompletion() {
         </div>
 
         <div>
-        <Link to="Component/FeedbackPage"  className="asktButton-link">
+        <Link to="/FeedbackPage"  className="asktButton-link">
           {" "}
           <Button className="buttom-ask" variant="secondary">
             Yes! made it!

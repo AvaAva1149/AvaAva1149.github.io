@@ -9,7 +9,7 @@
     .heading h1{
         color:white;
         font-size:30px;
-        font-weight:900;
+        font-weight:800;
         letter-spacing: 1px;
         padding-top: 2px;
         text-align: center;
@@ -35,19 +35,20 @@
         border-radius:30px;
         padding:15px 20px;
         cursor: pointer;
+        margin-top: 20px;
 
     }
     .container{
-        width:80%;
-        margin:0 auto;
-        display:flex;
+      
+     
+       display:flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
     .card img{
-        width:300px;
-        height:300px;
-        object-fit: cover;
+        width:250px;
+        height:250px;
+      align-items: center;
         border-radius: 30px;
        
     }
@@ -58,17 +59,23 @@
     }
 
     .column {
-        float: left;
-        width: 20.33%;
-        padding: 5px;
-        width:200px;
+       
+       padding-top: 1px;
+        width:250px;
         height:200px;
-        display:grid; 
+        display: flex;
+    flex-direction: column;
+        text-align: center;
+        align-items: center;
       
       }
       
       .img{
           border-radius:20px;
+        
+          width: 140px;
+        height: 100px;
+
         
          
       }

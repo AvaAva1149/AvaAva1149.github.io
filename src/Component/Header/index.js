@@ -5,6 +5,7 @@ import menu from "../../menu.svg";
 import "../../App";
 import "../../index";
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
@@ -26,7 +27,11 @@ function Header() {
 
             <li>
               <Nav.Link href="#home">
+
+              <Link to="/Meals" >
                 <img src={logo} className="App-logo" alt="logo" />
+              </Link>
+
               </Nav.Link>
             </li>
 
@@ -36,15 +41,31 @@ function Header() {
                 id="basic-nav-dropdown"
                 className="NavDropdown"
               >
+
+
+               <Link to="/Meals" >
                 <NavDropdown.Item href="#action/3.1">
-                  Meal plan
+                 Meal plan
                 </NavDropdown.Item>
+                </Link>
+
+
+
+                <Link to="/Stylediet" >
                 <NavDropdown.Item href="#action/3.2">
                   Food styles
                 </NavDropdown.Item>
+                </Link>
+
+
+                <Link to="/QuickAndEasy" >
                 <NavDropdown.Item href="#action/3.3">
                   Recipe list
                 </NavDropdown.Item>
+                </Link>
+
+
+
               </NavDropdown>
             </li>
           </Nav>
