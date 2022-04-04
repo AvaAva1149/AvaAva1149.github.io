@@ -1,6 +1,6 @@
 import React from "react";
 import Styleitem from "./Styleitem";
-import { Link } from "react-router-dom";
+
 
 import "../../index.css";
 import "./style.css";

@@ -8,9 +8,9 @@ import "./style.css";
 function Meals() {
   return (
     <div className="App-body-meal">
-      <p>What are you going to cook?</p>
+      <h5 className="h5-meal">WHAT ARE YOU GOING TO COOK?</h5>
 
- <Link to="/Stylediet">
+ <Link className="" to="/Stylediet">
       <button type="button" className="mealButton">
         Breakfast
       </button>

@@ -2,9 +2,7 @@
  align-items: center;
     }
 
-    body {
-        background-color:#434a5d;
-    }
+   
 
     .heading h1{
         color:white;
@@ -73,12 +71,18 @@
       .img{
           border-radius:20px;
         
-          width: 140px;
+    width: 140px;
         height: 100px;
 
-        
+       
+
          
       }
       
-   
+      .btn-group {
+        position: relative;
+        display: inline-block;
+        padding-right: 30px;
+        font-family: CinzelDecorative-Bold;
+      }
    

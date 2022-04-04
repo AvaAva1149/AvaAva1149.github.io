@@ -7,10 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/*@font-face {
-  font-family: 'CinzelDecorative';
-  src: local('CinzelDecorative'), url(./Fonts/CinzelDecorative/CinzelDecorative-Bold.ttf) format('truetype');
-}*/
+@font-face {
+  font-family: 'CinzelDecorative-Regular';
+  src: local('CinzelDecorative-Regular'), url(https://www.1001freefonts.com/cinzel-decorative.font) format('truetype');
+}
+@font-face {
+  font-family: 'CinzelDecorative-Black';
+  src: local('CinzelDecorative-Black'), url(https://www.1001freefonts.com/cinzel-decorative.font) format('truetype');
+}
+@font-face {
+  font-family: 'CinzelDecorative-Bold';
+  src: local('CinzelDecorative-Bold'), url(https://www.1001freefonts.com/cinzel-decorative.font) format('truetype');
+}
+
+@font-face {
+  font-family: 'SoleilRegular';
+  src: local('SoleilRegular'), url(https://www.cufonfonts.com/search/soleil) format('truetype');
+}
+
+@font-face {
+  font-family: 'SoleilLight';
+  src: local('SoleilLight'), url(https://www.cufonfonts.com/search/soleil) format('truetype');
+}
+
+@font-face {
+  font-family: 'SoleilBook';
+  src: local('SoleilBook'), url(https://www.cufonfonts.com/search/soleil) format('truetype');
+}
+
+@font-face {
+  font-family: 'SoleilBold';
+  src: local('SoleilBold'), url(https://www.cufonfonts.com/search/soleil) format('truetype');
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

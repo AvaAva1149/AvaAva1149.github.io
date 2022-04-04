@@ -4,6 +4,7 @@ import "../../App.css";
 import menu from "../../menu.svg";
 import "../../App";
 import "../../index";
+
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -12,64 +13,54 @@ import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 function Header() {
   return (
     <div className="App">
+
+
+
       <Navbar className="navbar" expand="lg">
-        <Container>
-          <Nav className="me-auto">
-            <li className="nav-list">
-              <Nav.Link href="#back">
-                <img
-                  src={backArrow}
-                  className="App-backArrow"
-                  alt="backArrow"
-                />
-              </Nav.Link>
-            </li>
-
-            <li>
-              <Nav.Link href="#home">
-
-              <Link to="/Meals" >
+        
+             <li>
+             <Link to="/Meals" >
                 <img src={logo} className="App-logo" alt="logo" />
               </Link>
 
-              </Nav.Link>
-            </li>
+           </li>
+
+
 
             <li>
-              <NavDropdown
-                title="menu"
-                id="basic-nav-dropdown"
-                className="NavDropdown"
-              >
+              <NavDropdown title="menu" id="basic-nav-dropdown" className="NavDropdown">
 
 
-               <Link to="/Meals" >
-                <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="#action/3.1">
+                <Link to="/Meals" >
                  Meal plan
+                 </Link>
                 </NavDropdown.Item>
-                </Link>
+                
 
 
-
+              <NavDropdown.Item href="#action/3.2">
                 <Link to="/Stylediet" >
-                <NavDropdown.Item href="#action/3.2">
                   Food styles
+                  </Link>
                 </NavDropdown.Item>
-                </Link>
+               
 
-
+              <NavDropdown.Item href="#action/3.3">
                 <Link to="/QuickAndEasy" >
-                <NavDropdown.Item href="#action/3.3">
                   Recipe list
+                  </Link>
                 </NavDropdown.Item>
-                </Link>
+               
 
 
 
               </NavDropdown>
             </li>
-          </Nav>
-        </Container>
+
+
+     
+      
       </Navbar>
     </div>
   );

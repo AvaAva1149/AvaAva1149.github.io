@@ -92,15 +92,17 @@ const style ={
 
     button: {
       border: "1px solid #a9a9a9",
-      width: 250,
-      borderRadius:15,
+      width: 270,
+      heigh:50,
+      borderRadius:20,
       padding:10,
       color: "#FFFFFF",
       background: "#6D968C",
-      cursor: "pointer"
-    
-  
-      },
+      cursor: "pointer",
+      
+      
+      
+    },
       
 }
 

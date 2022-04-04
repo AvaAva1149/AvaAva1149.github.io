@@ -15,11 +15,11 @@ function VideoPage() {
 
       <header className="App-header-video">
        
-        <p> Speak up to control the video</p>
+        <p> SPEAK UP TO CONTROL THE VIDEO</p>
 
         <img src={mic} className="mic" alt="mic" />
 
-        <div>
+        <div className="vidyoutu" >
 
         <ReactPlayer url="youtu.be/vPFoCNnaqIQ"/>
         </div>

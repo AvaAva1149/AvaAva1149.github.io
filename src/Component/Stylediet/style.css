@@ -5,7 +5,7 @@
     }
 
     body {
-        background-color:#434a5d;
+        background-color: #3f4552;
     }
 
     .heading h1{
@@ -20,9 +20,9 @@
 
     .heading h2{
         border-radius: 20px;
-        border: 2px solid #414D6E;
+        border: 2px solid #3f4552;;
         text-align: center;
-        color:#414D6E;
+        color:  #3f4552;;
         font-size:15px;
        
         
@@ -52,27 +52,21 @@
         float: left;
         width: 20.33%;
         padding: 5px;
-        margin-bottom: 40px;
-        width:200px;
+     
         height:200px;
         display:grid; 
         
       
-      }
-      
-      img{
-          border-radius:20px;
-          
       }
 
       .card {
         background-color:#BFD0D1;
         /* box-shadow: 0 4px 8px 0 rgba(220, 216, 216, 0.777); */
         border-radius: 20px;
+        padding:5px;
+       
       }
-.container {
-  padding: 0 16px;
-}
+
       
       
    
