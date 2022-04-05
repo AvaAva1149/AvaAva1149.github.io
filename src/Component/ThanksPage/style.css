@@ -7,6 +7,7 @@
     pointer-events: none;
     background-color: #bfd0d1;
     border-radius: 50%;
+  
     
   }
   
@@ -14,12 +15,12 @@
   
   .App-header-thanks {
     background-color: #434a5d;
-    min-height: 100vh;
+  padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: 25px;
     color:#faa831;
     font-family: CinzelDecorativeBold;
     font-size: 50PX;
@@ -36,6 +37,6 @@
     border-radius:20%;
     background-color: #689288;
     color: #e9f4f5;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
   }

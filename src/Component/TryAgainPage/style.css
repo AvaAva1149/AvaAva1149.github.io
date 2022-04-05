@@ -1,7 +1,7 @@
 .App-try {
     text-align: center;
     background-color: #434a5d;
-    min-height: 100vh;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,12 +27,12 @@
   
   .buttom-newplan{
     width: 270px;
-    height: 50;
-    margin-top: 60%;
+    height: 50px;
+    margin-top: 30%;
     border-radius:20%;
     background-color: #689288;
     color: #ddedee;
-    font-size: 20px;
+    font-size: 22px;
     
   }
   
