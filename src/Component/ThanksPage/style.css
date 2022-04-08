@@ -34,9 +34,15 @@
     width: 270px;
     height: 50px;
     margin-top: 10%;
-    border-radius:20%;
+    border-radius:10px;
     background-color: #689288;
     color: #e9f4f5;
     font-size: 22px;
     font-weight: 500;
   }
+
+  .startButton-thanks:hover {
+    background-color: #395951;
+    color: #d4e9eb;
+  }
+  

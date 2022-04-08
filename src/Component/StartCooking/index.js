@@ -29,26 +29,26 @@ function StartCooking() {
           <div >
 
 
-          <div className="back-card"    style={{ width: '15vmin', margin:'5px', }}>
-  <div >
-  <Card.Text>
-    <div>
+          <div className="back-card"    style={{ width: '20vmin', margin:'5px', }}>
+ 
+  
+    <div  >
     <p className="pause-icon">Pause</p>
           <p >Pause the video / Pause</p>
           </div>
-    </Card.Text>
-    </div>
+ 
+  
 </div> 
 
 
-<div className="back-card"  style={{ width: '15vmin', margin:'5px', }}>
+<div className="back-card"  style={{ width: '20vmin', margin:'5px', }}>
   <div className="back-card" >
-  <Card.Text>
+
     <div >
     <p className="pause-icon">Play</p>
           <p >Play the video / Play</p>
           </div>
-    </Card.Text>
+
     </div>
 </div> 
 
@@ -61,26 +61,26 @@ function StartCooking() {
           <div>
 
 
-          <div  className="back-card" style={{ width: '15vmin', margin:'5px', }}>
+          <div  className="back-card" style={{ width: '20vmin', margin:'5px', }}>
           <div >
-  <Card.Text>
+ 
     <div >
     <p className="pause-icon">Forward</p>
           <p >Forward</p>
           </div>
-    </Card.Text>
+ 
     </div>
 </div>
 
 
-<div className="back-card"  style={{ width: '15vmin', margin:'5px', }}>
+<div className="back-card"  style={{ width: '20vmin', margin:'5px', }}>
   <div >
-  <Card.Text>
+
     <div >
     <p className="pause-icon">Back</p>
           <p >Back the video / Back</p>
           </div>
-    </Card.Text>
+
     </div>
 </div> 
 

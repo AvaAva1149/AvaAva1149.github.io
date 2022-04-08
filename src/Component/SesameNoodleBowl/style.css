@@ -7,7 +7,8 @@ body{
 .App-noodle {
   text-align: center;
   background-color: #434a5d;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,58 +16,56 @@ body{
 }
 
 
-.cardGrid{
-  display: flex;
-  font-size: 12px;
-  flex-direction: row;
- font-family: SoeliRegular;
-  padding-top: 4px;
 
-  text-align: left;
-
-}
 
 
 .cardbody{
   color: #d4e9eb;
   background-color: #434a5d;
  font-family: CinzelDecorativeRegular;
- text-align: center;
- border-radius: 20px;
+
+ border-radius: 10px;
  font-weight: 600;
  padding-top: 1px;
  padding-bottom: 1px;
+ border: 2px solid #faa831;
+ 
+
+
+}
+
+
+.cardbody:hover{
+  background-color: #395951;
+  
 
 }
 .img-noodle{
-  height: 31vmin;
+  width: 50vmin;
+  border-radius: 10px;
+  border:2px solid #d4e9eb;
  
 
 }
 .titlecard{
   font-weight: 600;
-  font-size: 16px;
+  font-size: calc(11px + 1vmin);
 font-family: CinzelDecorativeRegular;
 color: #faa831;
-}
-
-
-.list-ingredient{
-display: inline-flex;
-color: #faa831; 
-font-size: 16px;
-font-family: SoleilRegular;
-flex-direction: row;
-list-style-type: none;
+text-align: left;
+padding-left: 5%;
 
 }
+
+
 
 .details{
 
   list-style-type: none;
-  font-size: 10px;
+  font-size: calc(8px + 1vmin);
   text-align: left;
-  padding-left: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
   
   
 }
@@ -75,19 +74,25 @@ list-style-type: none;
 .App-header-sesame {
   align-items: center;
   justify-content: center;
-  font-size: calc(15px + 1vmin);
+  font-size: calc(14px + 1vmin);
   color: #faa831;
   font-family: CinzelDecorativeBold;
+
 }
 
 
 .noodle-vid{
   width: 140px;
-  height: 35px;
-margin-bottom: 5px;
+    height: 35px;
+margin-bottom: 30px;
   border-radius: 10px;
   background-color: #689288;
-  color: #d4e9eb;
+  color: #e6f1f2;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.noodle-vid:hover{
+  background-color: #395951;
 }

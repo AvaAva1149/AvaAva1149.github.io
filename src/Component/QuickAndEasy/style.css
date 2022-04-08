@@ -14,10 +14,28 @@
         text-shadow: 3px 6px rgba(50,50,0,7.);
     }
 
-    .heading h2{
+    .h3-qe{
         text-align: center;
         color:white;
-        font-size:18px;
+        font-size:17px;
+        width: 200px;
+        font-weight: 500;
+        border:2px solid #bfd0d1;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+.link-qe{
+    text-decoration: none;
+}
+    .h3-qe:hover{
+        text-align: center;
+        color:#faa831;
+        font-size:17px;
+        width: 200px;
+        font-weight: 500;
+        border:2px solid #bfd0d1;
+        border-radius: 10px;
         
     }
     .searchBox{
@@ -30,7 +48,7 @@
         height:40px;
         border:none;
         outline:none;
-        border-radius:30px;
+        border-radius:10px;
         padding:15px 20px;
         cursor: pointer;
         margin-top: 20px;
@@ -41,7 +59,7 @@
         width:250px;
         height:250px;
       align-items: center;
-        border-radius: 30px;
+        border-radius: 10px;
        
     }
 
@@ -63,7 +81,7 @@
       }
       
       .img{
-          border-radius:20px;
+          border-radius:10px;
         
     width: 140px;
         height: 100px;

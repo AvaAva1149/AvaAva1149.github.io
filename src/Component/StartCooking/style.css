@@ -9,13 +9,13 @@
  }
 
  .h2title1{
-   font-size: 19px;
+   font-size: 20px;
    font-family: CinzelDecorative-Bold;
   padding: 5PX;
  }
 
  .h4title1{
-  font-size: 16px;
+  font-size: 20px;
   font-family: SoleilRegular;
  padding: 8PX;
  color: #bfd0d1;
@@ -40,10 +40,14 @@
   margin-bottom: 5px;
     border-radius: 10px;
     background-color: #689288;
-    color: #d4e9eb;
+    color: #e7f6f8;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 15px;
+  }
+
+  .start-video-button:hover{
+    background-color: #395951;
   }
 
   
@@ -57,7 +61,10 @@
     }
  
 
-
+.itemtext{
+ 
+  align-items: center;
+}
 
 
  .back-card{
@@ -66,6 +73,7 @@
    color: #faa831;
    border-radius: 20px;
    margin: 10px;
+   align-items: center;
    
   
  } 
@@ -84,7 +92,8 @@
   
   color:  #434a5d;
   font-size: 14px;
- padding: 2px;
+  font-weight: 500;
+ padding: 6px;
 }
 
 .para{

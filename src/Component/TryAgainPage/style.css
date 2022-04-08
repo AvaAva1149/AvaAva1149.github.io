@@ -29,10 +29,15 @@
     width: 270px;
     height: 50px;
     margin-top: 30%;
-    border-radius:20%;
+    border-radius:10px;
     background-color: #689288;
     color: #ddedee;
     font-size: 22px;
     
+  }
+
+  .buttom-newplan:hover{
+    background-color: #395951;
+
   }
   

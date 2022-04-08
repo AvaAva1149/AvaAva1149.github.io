@@ -12,7 +12,7 @@ const Recipeitem=()=>{
  
 <div className="container"> 
      <div>
-        <div><h1 className="heading"> Noodle recipe List</h1></div>
+        <div><h1 className="heading"> Noodle Recipe List</h1></div>
       
       <img className="img-recipe" src="https://images.unsplash.com/photo-1533622597524-a1215e26c0a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Jane"  />
       
