@@ -1,7 +1,7 @@
 .App-ask {
   text-align: center;
   background-color: #434a5d;
-
+ font-family: CinzelDecorative-Black; 
   display: flex;
   flex-direction: column;
   align-items: center;

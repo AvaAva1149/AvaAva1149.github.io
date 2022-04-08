@@ -1,5 +1,5 @@
 import logo from "../../logo.svg";
-import backArrow from "../../backArrow.svg";
+
 import "../../App.css";
 import menu from "../../menu.svg";
 import "../../App";
@@ -8,55 +8,41 @@ import "../../index";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Dropdown } from "react-bootstrap";
 
 function Header() {
   return (
     <div className="App">
 
 
-
-      <Navbar className="navbar" expand="lg">
+<Navbar className="navbar" expand="lg">
         
-             <li>
              <Link to="/Meals" >
                 <img src={logo} className="App-logo" alt="logo" />
               </Link>
 
-           </li>
+        
 
 
 
-            <li>
-              <NavDropdown title="menu" id="basic-nav-dropdown" className="NavDropdown">
+    
+
+            <Dropdown className="NavDropdown">
+  <Dropdown.Toggle variant="success" id="dropdown-basic" >Menu</Dropdown.Toggle>
+
+  <Dropdown.Menu className="menu-dropdown">
+    
+    <Dropdown.Item href="#/action-1"><Link to="/Meals" >Meal plan </Link></Dropdown.Item>
+
+    <Dropdown.Item href="#/action-2"> <Link to="/Stylediet" >Food styles</Link></Dropdown.Item>
+
+ <Dropdown.Item href="#/action-3"><Link to="/QuickAndEasy" > Recipe list</Link></Dropdown.Item>
 
 
-              <NavDropdown.Item href="#action/3.1">
-                <Link to="/Meals" >
-                 Meal plan
-                 </Link>
-                </NavDropdown.Item>
-                
+  </Dropdown.Menu>
+</Dropdown>
+ 
 
-
-              <NavDropdown.Item href="#action/3.2">
-                <Link to="/Stylediet" >
-                  Food styles
-                  </Link>
-                </NavDropdown.Item>
-               
-
-              <NavDropdown.Item href="#action/3.3">
-                <Link to="/QuickAndEasy" >
-                  Recipe list
-                  </Link>
-                </NavDropdown.Item>
-               
-
-
-
-              </NavDropdown>
-            </li>
 
 
      

@@ -18,7 +18,7 @@ const Mealitem=()=>{
         <img className="img" src="https://media.istockphoto.com/photos/spaghetti-with-tomato-sauce-shot-on-rustic-wooden-table-picture-id1166678093?k=20&m=1166678093&s=612x612&w=0&h=gICfSjYEFNNXgQfdc6nh7FoE8cu9ED4Jn9u_Y3b4-Mo=" alt="Forest"  />
        
        
-        <Link ClassName="link-qe" to="/NoodleRecipe" >
+        <Link ClassName="qe" to="/NoodleRecipe" >
         <h3 className="h3-qe">Noodle</h3> 
 </Link>
 

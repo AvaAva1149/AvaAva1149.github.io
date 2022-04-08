@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../index.css";
 import "./style.css";
-import { Card } from "react-bootstrap";
+
 function StartCooking() {
   return (
     <div className="App-startcooking ">
@@ -24,70 +24,54 @@ function StartCooking() {
 
           </div>
 
+
+
+
           <div className="icons">
 
-          <div >
-
-
-          <div className="back-card"    style={{ width: '20vmin', margin:'5px', }}>
+   
+   <div className="row-icon">
+ <div className="back-card"    style={{ width: '20vmin', margin:'5px', }}>
  
-  
-    <div  >
-    <p className="pause-icon">Pause</p>
-          <p >Pause the video / Pause</p>
+   <p className="pause-icon">Pause</p>
+          <p >Pause the video or Pause</p>
           </div>
  
   
-</div> 
+
 
 
 <div className="back-card"  style={{ width: '20vmin', margin:'5px', }}>
-  <div className="back-card" >
-
-    <div >
-    <p className="pause-icon">Play</p>
-          <p >Play the video / Play</p>
-          </div>
+  
+<p className="pause-icon">Play</p>
+          <p >Play the video or Play</p>
+          
 
     </div>
-</div> 
+    </div>
 
 
-
-   
-
-         </div>
+    <div className="row-icon">      
+      <div  className="back-card" style={{ width: '20vmin', margin:'5px', }}>
        
-          <div>
 
-
-          <div  className="back-card" style={{ width: '20vmin', margin:'5px', }}>
-          <div >
- 
-    <div >
     <p className="pause-icon">Forward</p>
           <p >Forward</p>
-          </div>
+   
  
-    </div>
 </div>
 
 
 <div className="back-card"  style={{ width: '20vmin', margin:'5px', }}>
-  <div >
 
-    <div >
-    <p className="pause-icon">Back</p>
-          <p >Back the video / Back</p>
+ <p className="pause-icon">Back</p>
+          <p >Back the video or Back</p>
           </div>
 
-    </div>
-</div> 
 
 
-          
-        </div>
-        </div>
+</div>
+</div>
         
         <img className="img-startcooking" src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bm9vZGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&"></img>
        

@@ -11,6 +11,7 @@ function App() {
       <header className="App-header-thanks">
         <img src={logo} className="App-logo-thanks" alt="logo" />
         <p> THANK YOU</p>
+        
 
         <Link to="/Meals">
           <button className="startButton-thanks" type="button">

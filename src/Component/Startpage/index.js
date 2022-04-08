@@ -10,7 +10,7 @@ function Startpage() {
     <div className="App-start">
       <header className="App-header-start">
         <img src={logo} className="App-logo-start" alt="logo" />
-        <p> WELCOME TO FOODY</p>
+        <p > WELCOME TO FOODY</p>
 
         <Link to="/Meals">
           <button className="linkButton" type="button">

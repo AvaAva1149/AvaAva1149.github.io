@@ -24,38 +24,40 @@ body{
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
-  background-color: #689288;
+background-color: #689288;
   justify-content: space-between;
-font-size: calc(10px + 2vmin);
-  color: white;
-  list-style-type: none;
-display:flex;
+ list-style-type: none;
+
 }
-
-
-
 
 
 .App-menu{
-  height: 5vmin;
-  margin-left: 95%;
- 
+  height: 10vmin;
 }
 
 .NavDropdown{
+color: #434a5d;
+background-color: #689288;
+ margin-right:20px;
+
+ }
+
+ .menu-dropdown{
+  display:list-item;
   list-style-type: none;
   background-color:#bfd0d1;
   color: #434a5d;
   font-size: 18px;
   width: 100px;
-margin-right: 20px;
-  
  }
 
-  
 
 
 
+
+
+
+ 
+ 
 
 

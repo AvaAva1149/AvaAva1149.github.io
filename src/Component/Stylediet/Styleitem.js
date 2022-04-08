@@ -10,9 +10,7 @@ const Styleitem=()=>{
     return(
         <>
        <div>
-        
-       <br />
-        <br />
+   
         <div className="row">
           <div className="column">
             <div className="card">

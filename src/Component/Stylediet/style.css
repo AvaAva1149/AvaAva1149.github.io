@@ -19,16 +19,20 @@
 
     .heading h2{
         border-radius: 20px;
-        border: 2px solid #bfd0d1;
+        border: 2px solid #3f4552;
         text-align: center;
         color:  #3f4552;;
         font-size:15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
        
         
     }
 
     .heading h2:hover{
         color:  #bfd0d1; 
+      border: 2px solid #bfd0d1;
+     
     }
 .h2-qelink{
     text-decoration: none;
@@ -36,15 +40,15 @@
 
    
     .container{
-        width:80%;
+        width:100%;
         margin:0 auto;
         display:flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
     .card.img{
-        width:300px;
-        height:300px;
+        width:200px;
+        height:180px;
     
         border-radius: 30px;
         border: 2px solid #d4e9eb;
@@ -58,10 +62,10 @@
 
     .column {
         float: left;
-        width: 20.33%;
-        padding: 5px;
-     
-        height:200px;
+        width:200px;
+        min-height: 220px;
+ 
+height:200px;
         display:grid; 
         
       
@@ -69,10 +73,11 @@
 
       .card {
         background-color:#BFD0D1;
-        /* box-shadow: 0 4px 8px 0 rgba(220, 216, 216, 0.777); */
-        border-radius: 20px;
+        border-radius: 10px;
         padding:5px;
-       
+        height: 300px;
+        width: 300px;
+
       }
 
       
@@ -81,4 +86,8 @@
         color:  #bfd0d1; 
       }
    
+
+      .column{
+        margin: 50px; 
+      }
    
