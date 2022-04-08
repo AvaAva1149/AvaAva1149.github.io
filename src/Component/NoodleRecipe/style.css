@@ -21,6 +21,7 @@
       padding-bottom: 20px;
       text-align: center;
       text-shadow: 3px 6px rgba(50,50,0,7.);
+      font-family: CinzelDecorativeBold;
   }
 .linksasame{
   text-decoration: none;
@@ -36,6 +37,8 @@
     text-shadow: 3px 6px rgba(50,50,0,7.);
 }
  
+
+
   .img-recipe{
       border-radius:20px;
       float: left;
@@ -58,6 +61,10 @@
    
     width: 250px;
   }
+
+  .danger:hover{
+    background-color: #395951;
+  }
   
   .success {
     border-radius:15px;
@@ -67,6 +74,10 @@
     padding: 12px 12px;
     width: 250px;
   }
+
+  .success:hover{
+    background-color: #395951;
+  }
   
   .info {
     border-radius:15px;
@@ -75,6 +86,11 @@
     margin-bottom: 15px;
     padding: 12px 12px;
     width: 250px;
+  }
+
+  .info:hover{
+
+    background-color: #395951;
   }
   
   
@@ -87,6 +103,10 @@
     width: 250px;
     
     
+  }
+
+  .warning:hover{
+    background-color: #395951;
   }
   .button {
     border-radius: 10px;
@@ -103,6 +123,12 @@
     
     
   }
+
+  .button:hover {
+    background-color: #395951;
+    color: #d4e9eb;
+  }
+
   
   .button span {
     cursor: pointer;
@@ -140,8 +166,6 @@
     flex-direction: column;
   }
 
-  .btn{
-  
-  }
+ 
   
 

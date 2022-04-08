@@ -10,9 +10,8 @@
 
     .heading h1{
         color:white;
-        font-size:20px;
-        /* font-weight:900; */
-        letter-spacing: 1px;
+        font-size:24px;
+       letter-spacing: 1px;
         padding-top: 2px;
         text-align: center;
         text-shadow: 3px 6px rgba(50,50,0,7.);
@@ -20,13 +19,21 @@
 
     .heading h2{
         border-radius: 20px;
-        border: 2px solid #3f4552;;
+        border: 2px solid #bfd0d1;
         text-align: center;
         color:  #3f4552;;
         font-size:15px;
        
         
     }
+
+    .heading h2:hover{
+        color:  #bfd0d1; 
+    }
+.h2-qelink{
+    text-decoration: none;
+}
+
    
     .container{
         width:80%;
@@ -35,11 +42,12 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    .card .img{
+    .card.img{
         width:300px;
         height:300px;
-        object-fit: cover;
+    
         border-radius: 30px;
+        border: 2px solid #d4e9eb;
        
     }
 
@@ -68,6 +76,9 @@
       }
 
       
-      
+      .card:hover {
+        background-color: #395951;
+        color:  #bfd0d1; 
+      }
    
    

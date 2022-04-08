@@ -13,6 +13,7 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: #faa831;
+  
  font-family: CinzelDecorativeBold;
 }
 
@@ -37,8 +38,12 @@
   color: #d4e9eb;
   font-size: 24px;
   font-weight: 700;
+  
 
  
 }
 
-
+.linkButton:hover {
+  background-color: #395951;
+  color: #d4e9eb;
+}

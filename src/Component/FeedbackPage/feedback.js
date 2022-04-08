@@ -33,7 +33,7 @@ function App() {
   return (
     
    <div style={style.container}>
-<h2> How was your experience </h2> 
+<h2> How was your experience? </h2> 
    <div style={style.stars}>
    {/* <div> <p> Easy-Taste-Quick </p> </div>  */}
    {stars.map((_, index) => {
@@ -91,18 +91,21 @@ const style ={
     },
 
     button: {
-      border: "1px solid #a9a9a9",
+    
       width: 270,
       heigh:50,
-      borderRadius:20,
+      borderRadius:10,
       padding:10,
-      color: "#FFFFFF",
-      background: "#6D968C",
+      color: "#e9f4f5",
+      background: " #689288",
       cursor: "pointer",
-      
-      
-      
-    },
+      fontSize:"22",
+      fontWeight:"500",
+
+   
+  },
+
+   
       
 }
 

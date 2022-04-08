@@ -31,9 +31,13 @@
   width: 270px;
   height: 50px;
   margin-top: 80px;
-  border-radius:20%;
+  border-radius:10px;
   background-color: #689288;
   color: #cedcdd;
   font-size: 20px;
   font-weight: 600;
+}
+.buttom-ask:hover {
+  background-color: #395951;
+  color: #d4e9eb;
 }

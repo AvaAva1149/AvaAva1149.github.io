@@ -59,7 +59,7 @@ const Styleitem=()=>{
 
 
 
-            <Link to="/QuickAndEasy" >  
+            <Link  className="h2-qelink" to="/QuickAndEasy" >  
             <h2>Quick & Easy</h2>
            </Link>
 
