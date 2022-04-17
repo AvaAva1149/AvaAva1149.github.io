@@ -15,9 +15,19 @@ function VideoPage() {
 
       <header className="App-header-video">
        
-        <p> SPEAK UP TO CONTROL THE VIDEO</p>
+        <p> TAB ON MIC ICON & SPEAK UP TO CONTROL THE VIDEO</p>
 
-        <img src={mic} className="mic" alt="mic" />
+
+
+        <img
+            className="mic"
+            src={mic}  alt="mic"
+            onClick={() =>
+              window.open("https://jumarash.github.io/jumarash/", "_blank")
+            }
+          />
+
+       
 
         <div className="vidyoutu" >
 

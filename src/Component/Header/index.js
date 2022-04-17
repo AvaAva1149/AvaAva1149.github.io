@@ -22,15 +22,21 @@ function Header() {
               </Link>
 
         
-
+             
 
 
     
 
             <Dropdown className="NavDropdown">
+
+
+
+
+
   <Dropdown.Toggle variant="success" id="dropdown-basic" >Menu</Dropdown.Toggle>
 
   <Dropdown.Menu className="menu-dropdown">
+    
     
     <Dropdown.Item href="#/action-1"><Link to="/Meals" >Meal plan </Link></Dropdown.Item>
 
